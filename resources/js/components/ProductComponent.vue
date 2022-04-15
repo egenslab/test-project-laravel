@@ -34,7 +34,7 @@
 
         // Fetches posts when the component is created.
         created() {
-            axios.get(`http://localhost/test-project-laravel/api/products`)
+            axios.get(`https://demo.getcoderzone.com/clients/laravel-test-project/api/products`)
                 .then(response => {
                     // JSON responses are automatically parsed.
                     this.dataList = response.data.productList
