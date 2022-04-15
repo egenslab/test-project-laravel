@@ -24,14 +24,14 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         /**
          * Register Routes
          */
-        Route::get('/register', 'RegisterController@show')->name('register.show');
-        Route::post('/register', 'RegisterController@register')->name('register.perform');
+        Route::get('admin/register', 'RegisterController@show')->name('register.show');
+        Route::post('admin/register', 'RegisterController@register')->name('register.perform');
 
         /**
          * Login Routes
          */
-        Route::get('/login', 'LoginController@show')->name('login.show');
-        Route::post('/login', 'LoginController@login')->name('login.perform');
+        Route::get('admin/login', 'LoginController@show')->name('login.show');
+        Route::post('admin/login', 'LoginController@login')->name('login.perform');
 
     });
 
@@ -41,8 +41,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
          * Dashboard Routes
          */
 
-        Route::get('/dashboard', 'DashboardController@dashboard')->name('user.dashboard');
-        Route::get('/product', 'ProductController@index')->name('user.dashboard.product.list');
+        Route::get('admin/dashboard', 'DashboardController@dashboard')->name('user.dashboard');
+        Route::get('admin/product', 'ProductController@index')->name('user.dashboard.product.list');
 
         /**
          * Logout Routes

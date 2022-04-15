@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-3">
                     <input type="submit" class="btn btn-danger btn-sm" value="Filter">
-                    <a href="{{ URL::to('/product') }}">
+                    <a href="{{ URL::to('admin/product') }}">
                         <input type="button" class="btn btn-danger btn-sm" value="Reset">
                     </a>
                 </div>
