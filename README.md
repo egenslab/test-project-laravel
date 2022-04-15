@@ -15,7 +15,3 @@
     
     Admin Username: admin@gmail.com
     Password: 12345678
-
-
-## About Us
-Egens Lab is a WordPress and SaaS company that helps you solve any business problem with websites. Our existence depends on making WordPress and SaaS products that help to scale your business. We are innovators who are constantly making WordPress suitable for solving any business problem by working hard to provide the best features in our themes, plugins, support, and consulting services!
