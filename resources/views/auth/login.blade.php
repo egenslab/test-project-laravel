@@ -15,7 +15,7 @@
 
                 <div class="form-group form-floating mb-3">
                     <label for="floatingName">Email or Username</label>
-                    <input type="text" class="form-control" name="username" value="{{ old('username') }}" placeholder="Username" required="required" autofocus>
+                    <input type="text" class="form-control" name="username" value="admin@gmail.com" placeholder="Username" required="required" autofocus >
                     @if ($errors->has('username'))
                         <span class="text-danger text-left">{{ $errors->first('username') }}</span>
                     @endif
@@ -23,7 +23,7 @@
 
                 <div class="form-group form-floating mb-3">
                     <label for="floatingPassword">Password</label>
-                    <input type="password" class="form-control" name="password" value="{{ old('password') }}" placeholder="Password" required="required">
+                    <input type="password" class="form-control" name="password" value="12345678" placeholder="Password" required="required">
                     @if ($errors->has('password'))
                         <span class="text-danger text-left">{{ $errors->first('password') }}</span>
                     @endif
