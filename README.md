@@ -1,5 +1,3 @@
-<p align="center"><a href="https://www.egenslab.com/" target="_blank"><img src="https://egenslab.b-cdn.net/wp-content/uploads/2021/07/logo.png" width="400"></a></p>
-
 ## About Laravel Test Project
 ## Installations Process
     composer install
@@ -7,7 +5,7 @@
     cp .env.example .env
     php artisan cache:clear
     php artisan key:generate
-    php artisan:migrate
+     php artisan migrate
     php artisan db:seed
     npm run dev
     php artisan serve

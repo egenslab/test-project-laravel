@@ -8,7 +8,7 @@
     <form method="post" action="{{ route('register.perform') }}" >
 
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-        <img class="mb-4" src="{!! url('https://egenslab.b-cdn.net/wp-content/uploads/2021/07/logo.png') !!}" alt="">
+        <img class="mb-4" src="{!! url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17AAHBpK3Lav0_tJ4fRb7u1GipsxAHslOv-ZJVFyf_HxGNZJsDcz03JivP1ILImGHNqg&usqp=CAU') !!}" alt="" style=" width: 157px;">
 
         <h1 class="h3 mb-3 fw-normal">Registrations User</h1>
 

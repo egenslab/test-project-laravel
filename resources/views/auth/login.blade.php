@@ -7,7 +7,7 @@
             <form method="post" action="{{ route('login.perform') }}" style="padding: 100px;">
 
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                <img class="mb-4" src="{!! url('https://egenslab.b-cdn.net/wp-content/uploads/2021/07/logo.png') !!}" alt="">
+                <img class="mb-4" src="{!! url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17AAHBpK3Lav0_tJ4fRb7u1GipsxAHslOv-ZJVFyf_HxGNZJsDcz03JivP1ILImGHNqg&usqp=CAU') !!}" alt="" style=" width: 157px;">
 
                 <h1 class="h3 mb-3 fw-normal">Login</h1>
 
@@ -29,6 +29,7 @@
                     @endif
                 </div>
                 <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+                <a href="{{ route('register.perform') }}" class="w-100 btn btn-lg btn-primary" style="margin-top: 20px;">Registrations</a>
                 @include('auth.partials.copy')
             </form>
        </div>
