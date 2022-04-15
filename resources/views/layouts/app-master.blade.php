@@ -9,10 +9,10 @@
     <title>Fixed top navbar example · Bootstrap v5.1</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{!! url('assets/bootstrap/css/bootstrap.min.css') !!}" rel="stylesheet">
-    <link href="{!! url('assets/bootstrap/css/style.css') !!}" rel="stylesheet">
+    <link href="{!! url('public/assets/bootstrap/css/bootstrap.min.css') !!}" rel="stylesheet">
+    <link href="{!! url('public/assets/bootstrap/css/style.css') !!}" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="{!! url('assets/css/app.css') !!}" rel="stylesheet">
+    <link href="{!! url('public/assets/css/app.css') !!}" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
@@ -26,7 +26,7 @@
     @yield('content')
 </main>
 
-<script src="{!! url('assets/bootstrap/js/bootstrap.bundle.min.js') !!}"></script>
+<script src="{!! url('public/assets/bootstrap/js/bootstrap.bundle.min.js') !!}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>

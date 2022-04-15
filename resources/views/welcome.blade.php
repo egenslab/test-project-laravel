@@ -47,9 +47,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body class="antialiased">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('public/css/app.css') }}">
 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0" id="app"></div>
-<script src="{{ asset('js/app.js') }}" async defer></script>
+<script src="{{ asset('public/js/app.js') }}" async defer></script>
 @yield('script')
 </body>
 </html>

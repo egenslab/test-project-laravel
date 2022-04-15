@@ -22507,7 +22507,7 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     var _this = this;
 
-    axios__WEBPACK_IMPORTED_MODULE_0___default().get("http://127.0.0.1:8000/api/products").then(function (response) {
+    axios__WEBPACK_IMPORTED_MODULE_0___default().get("http://localhost/test-project-laravel/api/products").then(function (response) {
       // JSON responses are automatically parsed.
       _this.dataList = response.data.productList;
     })["catch"](function (e) {
