@@ -1,0 +1,17 @@
+<p align="center"><a href="https://www.egenslab.com/" target="_blank"><img src="https://egenslab.b-cdn.net/wp-content/uploads/2021/07/logo.png" width="400"></a></p>
+
+## About Laravel Test Project
+## Installations Process
+    composer install
+    npm install
+    cp .env.example .env
+    php artisan cache:clear
+    php artisan key:generate
+    php artisan:migrate
+    php artisan db:seed
+    npm run dev
+    php artisan serve
+
+
+## About Us
+Egens Lab is a WordPress and SaaS company that helps you solve any business problem with websites. Our existence depends on making WordPress and SaaS products that help to scale your business. We are innovators who are constantly making WordPress suitable for solving any business problem by working hard to provide the best features in our themes, plugins, support, and consulting services!
