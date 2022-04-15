@@ -11,6 +11,9 @@
     php artisan db:seed
     npm run dev
     php artisan serve
+    
+    Frontend:http://127.0.0.1:8000/
+    Backend:http://127.0.0.1:8000/login
 
 
 ## About Us
